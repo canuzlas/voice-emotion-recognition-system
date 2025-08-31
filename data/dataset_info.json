@@ -1,0 +1,51 @@
+{
+  "datasets": {
+    "sample": {
+      "description": "Synthetic sample dataset for testing",
+      "emotions": [
+        "happy",
+        "sad",
+        "angry",
+        "neutral",
+        "fear",
+        "disgust",
+        "surprise",
+        "calm"
+      ],
+      "total_samples": 160,
+      "format": "WAV",
+      "sample_rate": "16kHz",
+      "duration": "3 seconds"
+    },
+    "ravdess": {
+      "description": "Ryerson Audio-Visual Database of Emotional Speech and Song",
+      "emotions": [
+        "neutral",
+        "calm",
+        "happy",
+        "sad",
+        "angry",
+        "fearful",
+        "disgust",
+        "surprised"
+      ],
+      "total_samples": 1440,
+      "actors": 24,
+      "url": "https://zenodo.org/record/1188976"
+    },
+    "crema": {
+      "description": "Crowdsourced Emotional Multimodal Actors Dataset",
+      "emotions": [
+        "anger",
+        "disgust",
+        "fear",
+        "happy",
+        "neutral",
+        "sad"
+      ],
+      "total_samples": 7442,
+      "actors": 91,
+      "url": "https://github.com/CheyneyComputerScience/CREMA-D"
+    }
+  }
+}
